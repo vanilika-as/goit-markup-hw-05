@@ -5,7 +5,6 @@
 .backdrop {
   position: fixed;
   inset: 0;
-
   z-index: 999;
 
   display: flex;
@@ -73,7 +72,7 @@
   height: 24px;
   padding: 0;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
 
   color: #2e2f42;
@@ -165,11 +164,11 @@
 
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
 
   transition:
@@ -190,27 +189,24 @@
 }
 
 
-/* ICON INSIDE INPUT */
+/* =========================
+   INPUT ICONS
+========================= */
 
 .modal-input-icon {
   position: absolute;
-
   top: 50%;
   left: 16px;
 
   transform: translateY(-50%);
 
   color: #2e2f42;
-
   fill: currentColor;
 
   pointer-events: none;
 
-  transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* ВАЖНО: input + svg */
 
 .modal-input:focus + .modal-input-icon {
   color: #4d5ae5;
@@ -245,7 +241,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
 
   transition:
@@ -327,8 +323,7 @@
 
   opacity: 0;
 
-  transition:
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -358,18 +353,17 @@
   outline-offset: 2px;
 }
 
-
 .agreement-text {
   display: inline;
 }
 
 .privacy-link {
   color: #4d5ae5;
+
   text-decoration: underline;
   text-decoration-skip-ink: none;
 
-  transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-link:hover,
@@ -381,6 +375,7 @@
   outline: 2px solid #4d5ae5;
   outline-offset: 2px;
 }
+
 
 /* =========================
    SEND BUTTON
@@ -411,9 +406,7 @@
 
   cursor: pointer;
 
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit-btn:hover,
