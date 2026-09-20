@@ -110,7 +110,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 
   color: #ffffff;
 }
@@ -160,11 +160,11 @@
 
 .footer-subscribe-input:hover,
 .footer-subscribe-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-subscribe-input:focus {
-  box-shadow: 0 0 0 1px #4d5ae5;
+  box-shadow: 0 0 0 1px #31d0aa;
 }
 
 .footer-subscribe-btn {
@@ -199,7 +199,7 @@
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-subscribe-btn:focus-visible {
